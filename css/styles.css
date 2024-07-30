@@ -650,3 +650,35 @@ button {
 .icon-icon {
     fill: #f4f4fd;
 }
+
+@media screen and (min-width: 768px) {
+    .team .container {
+            width: 552px;
+    }
+
+    .team-list {
+        justify-content: flex-start;
+        gap: 64px 24px;
+    }
+    
+        .team-item {
+            width: calc((100% - 24px) / 2);
+        }
+}
+
+@media screen and (min-width: 1158px) {
+    .team .container {
+        width: 1158px;
+        }
+
+    .team {
+        padding: 120px 0;
+    }
+
+    .team-list {
+        gap: 24px;
+    }
+    .team-item {
+        width: calc((100% - 3 * 24px) / 4);
+        }
+}
